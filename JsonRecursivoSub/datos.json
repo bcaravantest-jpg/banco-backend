@@ -1,0 +1,78 @@
+{
+  "empresa": "GlobalTech",
+  "fundada": 2005,
+  "sectores": [
+    {
+      "nombre": "Desarrollo de Software",
+      "proyectos": [
+        {
+          "nombre": "Plataforma E-Commerce",
+          "tecnologias": ["Java", "Spring Boot", "React"],
+          "equipo": [
+            {"nombre": "Carlos", "rol": "Líder de proyecto"},
+            {"nombre": "María", "rol": "Desarrolladora Backend"},
+            {"nombre": "José", "rol": "Desarrollador Frontend"}
+          ]
+        },
+        {
+          "nombre": "App Móvil Salud",
+          "tecnologias": ["Kotlin", "Firebase", "ML Kit"],
+          "equipo": [
+            {"nombre": "Andrea", "rol": "Scrum Master"},
+            {"nombre": "Diego", "rol": "Desarrollador Android"}
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Ciberseguridad",
+      "servicios": [
+        {
+          "tipo": "Pentesting",
+          "clientes": [
+            {"nombre": "Banco Uno", "pais": "Guatemala"},
+            {"nombre": "Banco Dos", "pais": "El Salvador"}
+          ]
+        },
+        {
+          "tipo": "Monitoreo 24/7",
+          "herramientas": ["SIEM", "Snort", "Wireshark"],
+          "turnos": {
+            "mañana": ["Luis", "Camila"],
+            "tarde": ["Roberto", "Elena"],
+            "noche": ["Sofía"]
+          }
+        }
+      ]
+    }
+  ],
+  "sucursales": {
+    "Guatemala": {
+      "direccion": "Zona 10, Ciudad de Guatemala",
+      "departamentos": {
+        "RRHH": {"jefe": "Laura", "empleados": ["Pedro", "Ana", "Carlos"]},
+        "Finanzas": {"jefe": "Fernando", "empleados": ["Marta", "Juan"]}
+      }
+    },
+    "México": {
+      "direccion": "CDMX, Reforma",
+      "departamentos": {
+        "Marketing": {
+          "jefe": "Valeria",
+          "campañas": [
+            {"nombre": "Campaña 2024", "canales": ["TV", "Radio", "Redes Sociales"]},
+            {"nombre": "Campaña 2025", "canales": ["Digital Ads", "SEO"]}
+          ]
+        }
+      }
+    }
+  },
+  "certificaciones": [
+    {"nombre": "ISO 27001", "año": 2021},
+    {"nombre": "ISO 9001", "año": 2020}
+  ],
+  "contacto": {
+    "telefonos": ["+502-5555-1111", "+502-5555-2222"],
+    "emails": {"soporte": "soporte@globaltech.com", "ventas": "ventas@globaltech.com"}
+  }
+}
