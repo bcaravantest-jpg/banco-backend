@@ -1,28 +1,29 @@
-# Maven
-/target
-/pom.xml.tag
-/pom.xml.releaseBackup
-/pom.xml.versionsBackup
-/logs
-/.mvn
-!.mvn/wrapper/maven-wrapper.jar
-
-# Eclipse
-.classpath
+# Archivos y carpetas de Eclipse
 .project
+.classpath
 .settings/
 
-# IntelliJ / VSCode
+# Carpeta de compilación
+/bin/
+/target/
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Configuraciones personales
 .idea/
 .vscode/
 *.iml
 
-# Archivos del sistema
-.DS_Store
-Thumbs.db
-bin/
-out/
+# Variables de entorno y credenciales (si usas)
+.env
+application-*.properties
 
-# Archivos temporales
-*.log
-*.tmp
+# Archivos generados por Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
