@@ -1,0 +1,28 @@
+# Maven
+/target
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/logs
+/.mvn
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ / VSCode
+.idea/
+.vscode/
+*.iml
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+bin/
+out/
+
+# Archivos temporales
+*.log
+*.tmp
